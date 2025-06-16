@@ -1,0 +1,49 @@
+/* This is the main container for the entire stepper process */
+.create-order-container {
+    max-width: 900px;
+    margin: 2rem auto; /* Centers the component on the page */
+    padding: 2rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+/* Provides spacing for the content below the stepper (e.g., the form or summary) */
+.step-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+/* Styles the container for the "Back" and "Next" buttons */
+.step-actions {
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right */
+    gap: 1rem; /* Adds space between buttons */
+    margin-top: 2rem;
+}
+
+/* Specifically for the Address form layout */
+.address-form-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Adds space between form fields */
+}
+
+.address-form-container .MuiTextField-root {
+    margin-bottom: 1rem;
+}
+
+/* Styles the final confirmation step to have two columns */
+.confirmation-details {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: space-between;
+    gap: 2rem; /* Space between the two columns */
+}
+
+.product-summary, .address-summary {
+    flex: 1; /* Each column will take up half the space */
+    min-width: 300px; /* Ensures columns don't get too squished */
+}

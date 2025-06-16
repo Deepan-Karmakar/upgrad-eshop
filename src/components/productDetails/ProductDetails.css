@@ -1,0 +1,16 @@
+.details-container {
+    margin-top: 2rem;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.quantity-available {
+    background-color: #f5f5f5;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+.place-order-btn {
+    margin-top: 1rem;
+}
