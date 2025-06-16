@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardMedia, Typography, CardActions, Button, IconButton } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography, CardActions, Button, IconButton, Box } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
